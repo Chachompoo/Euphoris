@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #3d3d3d, #d1cfcf); /* สีพื้นหลังไล่ระดับ */
+}
+
+.register-card {
+  display: flex;
+  width: 1000px;
+  height: 480px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.welcome-section {
+  flex: 1;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.welcome-section h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+.form-section .login-link-text {
+  margin-top: -7px; /* ลองปรับค่านี้ให้เป็นลบเพื่อดันขึ้น */
+}
+
+.form-section h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.form-section p {
+  margin-bottom: 20px;
+  font-size: 12px;
+}
+
+.form-section input,
+.form-section button {
+  width: 95%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.form-section .form-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-section .form-row input {
+  width: 48%;
+}
+
+.form-section button {
+  background-color: rgb(8, 8, 8);
+  color: white;
+  width: 100%;
+  border: none;
+  cursor: pointer;
+}
+
+.form-section label {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.form-section label input {
+  width: auto;
+  margin-right: 10px;
+}
